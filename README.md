@@ -74,7 +74,7 @@ Entidade | Tipo | Tamanho | Chave primária | Chave estrangeira | Nulo
 tag_ID | INT | - | Não | Sim | Não
 program_ID | INT | - | Não | Sim | Não
 
-**Obs.:** Verificar se a dependência está sendo usada pela aplicação, por que hoje não tinha nenhuma tag cadastrada.
+**Obs.:** A dependência não está sendo usada pela aplicação.
 
 ### **Regras de negócio**
 
@@ -82,7 +82,7 @@ program_ID | INT | - | Não | Sim | Não
 
 **Create**
 
-_Campo Bu.Name deve ser preenchido com o nome do programa quando este for vazio._
+_Campo "Bu_Name" deve ser preenchido com o nome do programa quando este for vazio._
 ![](./imagens/BuName.PNG)
 
 **Edit**
@@ -105,3 +105,11 @@ _É mostrado os grupos de faturamento referente a programa._
 **Delete**
 
 - Não deve permitir deletar um programa que esteja sendo usado.
+
+### **Observações**
+
+---
+
+- A dependência com tags será removida no protrack 3.
+- Os campos alcance do projeto e nível da tecnico dos formulários de cadastro e de edição serão removidas.
+- No campo de operações o dropdown com os valores, deverá retornar somente os registros ativos.
