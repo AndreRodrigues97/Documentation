@@ -11,7 +11,7 @@
     <li>Possui relacionamento direto com a entidade tag</li>
 </ul>
 *Tag*
-![](./imagens/Tags.PNG)
+![](./imagens/ListaGrupoFaturamento.PNG)
 
 <ul>
     <li>Possui relacionamento indireto com a entidade Grupo de faturamento(tb_project_group) e a entidade Etapas do projeto(tb_project)</li>
