@@ -29,7 +29,7 @@ _Etapas do projeto_
 ---
 
 **tb_Program**
-Entidade | Tipo | Tamanho | Chave primaria | Chave estrangeira | Nulo
+Entidade | Tipo | Tamanho | Chave primária | Chave estrangeira | Nulo
 -------- | ---- | ------- | -------------- | ----------------- | ----
 Program_ID | INT | - | Sim | Não | Não
 Program_Name | VARCHAR | 50 | Não | Não | Não
@@ -50,24 +50,24 @@ Program_Nivel_ID | INT | - | Não | Sim | Sim
 BU_Name | Varchar | 50 | Não | Não | Sim
 
 **tb_tag**
-Entidade | Tipo | Tamanho | Chave primaria | Chave estrangeira | Nulo
+Entidade | Tipo | Tamanho | Chave primária | Chave estrangeira | Nulo
 -------- | ---- | ------- | -------------- | ----------------- | ----
 ID | INT | - | Sim | Não | Não
 Class_ID | INT | - | Não | Sim | Não
 Name | VARCHAR | 50 | Não | Não | Não
 
-**Obs.:** Verifique se os dados são inseridos ou cadastrados.
+**Obs.:** Verificar se os dados são inseridos ou cadastrados.
 
 **tb_tag_class**
-Entidade | Tipo | Tamanho | Chave primaria | Chave estrangeira | Nulo
+Entidade | Tipo | Tamanho | Chave primária | Chave estrangeira | Nulo
 -------- | ---- | ------- | -------------- | ----------------- | ----
 ID | INT | - | Sim | Não | Não
 Name | VARCHAR | 50 | Não | Não | Não
 
-**Obs.:** Verifique se os dados são inseridos ou cadastrados.
+**Obs.:** Verificar se os dados são inseridos ou cadastrados.
 
 **tb_tag_program**
-Entidade | Tipo | Tamanho | Chave primaria | Chave estrangeira | Nulo
+Entidade | Tipo | Tamanho | Chave primária | Chave estrangeira | Nulo
 -------- | ---- | ------- | -------------- | ----------------- | ----
 tag_ID | INT | - | Não | Sim | Não
 program_ID | INT | - | Não | Sim | Não
